@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+body{
+    background: url(./images/workoutbackground.jpg) center/cover no-repeat;
+    padding-top: -10px;
+    }
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: #c9efd0;
+    text-shadow: 0 0 10px #070707bb;
+    font-family: cursive;
+}
+.myLeg{
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #d45252;
+    transition: background-color 0.3s ease;
+}
+
+.myLeg:hover {
+    background-color: #d45252;
+}
+.myBack{
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #5ccf6f;
+    transition: background-color 0.3s ease;
+}
+.myBack:hover {
+    background-color: #5ccf6f;
+}
+.myChest{
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #c088dd;
+    transition: background-color 0.3s ease;
+}
+.myChest:hover {
+    background-color: #c088dd;
+}
+.myArm{
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #e3e54d;
+    transition: background-color 0.3s ease;
+}
+.myArm:hover {
+    background-color: #e3e54d;
+}
+.Wbar {
+    display: flex;
+    background-color: #ffffff;
+    padding: 5px;
+    justify-content: space-between;
+  }
+  .Wbar a {
+    color: rgb(7, 6, 6);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Wbar a:hover {
+    background-color: #080707;
+    color:white;
+}
